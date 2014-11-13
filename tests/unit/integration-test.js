@@ -16,7 +16,7 @@
  
 
 test("Account", function() {
-  expect(1);
+
   stop();
    Ember.run(function(){
      store.find('account','this').then(function(account){
@@ -27,8 +27,7 @@ test("Account", function() {
       ok(false, "rejected account error:" + (err.stack || err.message) );
     });
   });
- });
-test("Account Login", function() {
+
   stop();
   Ember.run(function(){
      store.find('account','this').then(function(account){
@@ -47,10 +46,8 @@ test("Account Login", function() {
 
      });
   });//Ember.run
-});
 
-test("Basket", function() {
-  expect(1);
+
   stop();
    Ember.run(function(){
      store.find('basket','this').then(function(basket){
@@ -61,4 +58,5 @@ test("Basket", function() {
       ok(false, "rejected error:" + (err.stack || err.message) );
     });
   });
+   
  });
