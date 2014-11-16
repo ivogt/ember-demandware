@@ -10,7 +10,7 @@
      store = App.__container__.lookup('store:main');
    },
    teardown: function() {
-     Ember.run(App, App.destroy);
+    // Ember.run(App, App.destroy);
    }
  });
  
@@ -21,10 +21,10 @@ test("Account", function() {
    Ember.run(function(){
      store.find('account','this').then(function(account){
       start();
-      ok(account,"has account");
+      ok(account,"Found account!");
     }, function(err){
       start();
-      ok(false, "rejected account error:" + (err.stack || err.message) );
+      ok(false, "Account request is rejected, error:" + (err.stack || err.message) );
     });
   });
 
@@ -33,13 +33,14 @@ test("Account", function() {
      store.find('account','this').then(function(account){
           if(account.get('customer_no')){
            start();
-            ok(true,"Account logged in!");
+            ok(true,"Account is logged in!");
           }
           if(!account.get('customer_no')){
             var adapter = store.adapterFor(store.modelFor('account'));
             adapter.login("ivo.gtodorov@gmail.com","11111111").then(function (response){
               start();
-              ok(!!account.get('customer_no'),"Account logged in!");
+              var loggedin = !!account.get('customer_no') && account.get('customer_no').length > 3 ? true :false;
+              ok(loggedin,"Account logged in after login request?");
             });
           }
 
@@ -55,8 +56,25 @@ test("Account", function() {
       ok(basket);
     }, function(err){
       start();
-      ok(false, "rejected error:" + (err.stack || err.message) );
+      ok(false, "Basket rejected error:" + (err.stack || err.message) );
     });
   });
-   
+
+
+  stop();
+  Ember.run(function(){
+     store.find('ProductSearch').then(function(SearchResult){
+      start();
+        var result = SearchResult.content;
+       ok(result.length , "Search has records[" + result.length + "]!" );
+       ok(!!SearchResult , "Search OK!" );
+     },
+     function(err){
+      start();
+      ok(false, "ProductSearch rejected error:" + (err.stack || err.message) );
+    });
+   });
+
+
+
  });

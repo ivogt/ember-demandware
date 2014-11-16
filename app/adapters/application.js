@@ -1,4 +1,5 @@
 import DS from 'ember-data';
+import Ember from 'ember';
 export default DS.RESTAdapter.extend({
 	requiresHttps : ['account'],
 	namespace: 's/mandco/dw/shop/v14_8',
@@ -8,7 +9,7 @@ export default DS.RESTAdapter.extend({
 	    "content-type":"application/json;charset=UTF-8",
   	},
   	pathForType: function(type) { //remove pluralization
-	    return type;
+	    return Ember.String.decamelize(type);
   	},
   	ajaxOptions: function(url, type, options) {
   		var hash = options || {};

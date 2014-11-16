@@ -3,6 +3,7 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'demandware',
+    podModulePrefix : 'demandware/pods',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
