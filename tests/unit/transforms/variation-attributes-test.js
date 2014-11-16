@@ -16,12 +16,12 @@ var input = [
                             "description": "12",
                             "image": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "image_swatch": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "name": "12",
@@ -31,12 +31,12 @@ var input = [
                             "description": "14",
                             "image": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "image_swatch": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "name": "14",
@@ -46,12 +46,12 @@ var input = [
                             "description": "16",
                             "image": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "image_swatch": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "name": "16",
@@ -61,12 +61,12 @@ var input = [
                             "description": "18",
                             "image": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "image_swatch": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "name": "18",
@@ -76,12 +76,12 @@ var input = [
                             "description": "20",
                             "image": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "image_swatch": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "name": "20",
@@ -91,12 +91,12 @@ var input = [
                             "description": "8",
                             "image": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "image_swatch": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "name": "8",
@@ -106,12 +106,12 @@ var input = [
                             "description": "10",
                             "image": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "image_swatch": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "name": "10",
@@ -127,12 +127,12 @@ var input = [
                             "description": "IVORY",
                             "image": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_om_medium.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "image_swatch": {
                                 "alt": "Ditsy print jersey top",
-                                "link": "https://dev01-web-mandco.demandware.net/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
+                                "link": "https://domain/on/demandware.static/Sites-mandco-Site/Sites-MandCo-Master/default/v1414595851623/1163531_ivory_p_swatch.jpg",
                                 "title": "Ditsy print jersey top"
                             },
                             "name": "IVORY",
